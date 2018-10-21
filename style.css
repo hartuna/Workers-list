@@ -1,0 +1,23 @@
+@charset 'utf-8';
+*{
+	box-sizing: border-box;
+	font-family:'Segoe UI','Verdana';
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: auto;
+	width: 1200px;
+}
+.worker{
+	border-bottom: 1px solid #ddd;
+	padding: 20px 0px;
+	width: 100%;
+}
+.left, .right{
+	float: left;
+	width: 50%;
+}
+.clear{
+	clear: both;
+}
